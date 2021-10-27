@@ -1,0 +1,125 @@
+@font-face { font-family: lato; src: url('../fonts/Lato-Regular.ttf');}
+@font-face { font-family: lato-bold; src: url('../fonts/Lato-Bold.ttf');}
+
+*{
+    font-family: lato;   
+    border-radius: 0!important;
+}
+.header{
+    position: absolute;
+    top: 0px;
+    z-index: 1000;
+}
+
+.lato-bold-font{
+    font-family: lato-bold;
+    font-size: 72px; 
+    font-weight:bold;
+}
+
+.card {
+    border-radius: 0!important;
+}
+
+
+.container-fluid {
+    background-color: #f6b900;
+}
+
+.navbar-brand {
+    margin-left: -11vw;
+}
+
+.navbar-nav {
+    margin-right: -19%;
+}
+
+.card-title {
+    color: #f6b900;
+}
+
+.bg-yellow {
+    background-color: #f6b900;
+    color: white;
+    width:fit-content;
+}
+
+.sub-title {
+    width: 453px;
+}
+
+.card-img-overlay {
+    padding-top: 18vw;
+    margin-left: 7%;
+    top: 3px;
+    border-radius: 0!important;
+}
+
+.text-content {
+    background-image: url(../../assets/bg.png);
+    width: 100vw;
+}
+
+.divided-text {
+    margin-top: 150px;
+    margin-bottom: 28px;
+}
+
+.divided-text h5, .divided-text li {
+    font-size: 16px;
+    font-weight: 400!important;
+}
+
+.text-bold {
+    font-size: 28px;
+    font-weight: 500!important;
+}
+
+.half-text {
+    width: 45%;
+}
+
+.bg-grey {
+    background-color: #e5e5e5;
+}
+
+.rounded {
+    border-radius: 1.25rem !important;
+}
+
+.container-fluid-body {
+    overflow-x: hidden;
+}
+
+.card-footer {
+    background-color: black;
+}
+
+.center-section {
+    color: black;
+    padding: 40px 70px;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    justify-content: center;
+    position: absolute;
+    z-index: 10000;
+    background-color: white;
+    bottom: -113px;
+    width: 80%;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+.center-section .card-title {
+    color: black;
+    font-weight: 400;
+}
+
+.card-icon {
+    width: 50%;
+}
+
+.card-row-footer {
+    text-align: center;
+}
